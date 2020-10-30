@@ -5,7 +5,11 @@ import com.google.gson.Gson;
 public class Main {
     public static void main(String[] args) {
         Gson gson = new Gson();
+<<<<<<< HEAD
         Flights flights = gson.fromJson(Json.parseJsonFile("./src/main/resources/flights.json"), Flights.class);
+=======
+        Flights flights = gson.fromJson(Json.parseJsonFile("flights.json"), Flights.class);
+>>>>>>> 70e46278033b1a5f26ac86ff40be04c5736e1f6a
         int minPrice = 0;
         double averagePrice = 0.0;
         int maxPrice = 0;
